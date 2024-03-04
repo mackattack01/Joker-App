@@ -1,0 +1,42 @@
+html {
+	--background-color: #414246;
+	--text-color: #8A5490;
+	--accent-color: #8db860;
+}
+body {
+	background: var(--background-color);
+	color: var(--text-color);
+}
+
+header {
+	border-bottom: 1px solid var(--accent-color);
+}
+
+article {
+	margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--accent-color);
+}
+
+a {
+	color: var(--accent-color);
+}
+
+.flex {
+	display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+button {
+	background-color: var(--accent-color);
+	border: none;
+	color: var (--text-color);
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
