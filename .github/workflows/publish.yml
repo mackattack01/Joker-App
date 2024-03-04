@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
   pages: write
-  id-token: write
+  id-token: write
 jobs:
   prepare_release:
     name: Prepare release
