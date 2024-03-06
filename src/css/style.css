@@ -6,6 +6,7 @@ html {
 body {
 	background: var(--background-color);
 	color: var(--text-color);
+	font-size: 25px;
 }
 
 header {
