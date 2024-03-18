@@ -41,3 +41,20 @@ button {
 	display: inline-block;
 	font-size: 16px;
   }
+
+  table {
+	border: 10px solid rgb(0, 0, 0);
+  border-style: inset;
+}
+table{
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 15px;
+}
+
+
+td {
+	background-color: #8db860;
+}
+th{
+	background-color: #5e3762 ;
+}
